@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       {visible && <MainNavbar/>}
       <Main />
-      {visible && <HomePage />}
+      {/* {visible && <HomePage />} */}
 
       {visible && <Footer/>}
     </div>

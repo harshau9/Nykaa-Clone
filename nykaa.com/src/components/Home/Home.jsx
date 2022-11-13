@@ -141,50 +141,6 @@ function HomePage() {
           alt="banner2"
         />
       </div>
-      {/* <div className={styles.card}>
-        {cardImages1.map((cards, index) => (
-          <Stack
-            borderWidth="1px"
-            borderRadius="lg"
-            w={{ sm: "100%", md: "560px" }}
-            height={{ sm: "476px", md: "18.8rem" }}
-            direction={{ base: "column", md: "row" }}
-            marginTop={"20px"}
-          >
-            {" "}
-            <div className="each-slide" key={index}>
-              <div>
-                <img
-                  className={styles.desimcal}
-                  src={`${cards.url}`}
-                  alt="card"
-                />
-              </div>
-            </div>
-          </Stack>
-        ))}
-      </div>
-      <div className={styles.cardsquare}>
-        <div>
-          <img
-            src="https://images-static.nykaa.com/uploads/887f5bce-b082-44f7-a5b4-00c7120ee5ba.png?tr=w-800,cm-pad_resize"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            src="https://images-static.nykaa.com/uploads/72989133-c367-4986-b66e-5c49c00a0249.png?tr=w-800,cm-pad_resize"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            src="https://images-static.nykaa.com/uploads/fd031c0b-bd81-471c-86b2-6395ae0da879.png?tr=w-800,cm-pad_resize"
-            alt=""
-          />
-        </div>
-      </div> */}
-
       <h1 className={styles.bigheader}>TOP BRANDS</h1>
       {/* cards 1 */}
       <div className={styles.card}>
