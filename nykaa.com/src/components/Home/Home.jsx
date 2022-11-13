@@ -129,62 +129,18 @@ function HomePage() {
 
       <div className={styles.banner}>
         <img
-          src="https://images-static.nykaa.com/uploads/19367bb9-be89-428e-8892-e6f1ad9718f2.jpg?tr=w-2400,cm-pad_resize"
+          src="https://images-static.nykaa.com/uploads/669cfd1c-6527-45f9-901c-95ac6109e896.gif?tr=w-1200,cm-pad_resize"
           alt="banner1"
         />
       </div>
-      <h1 className={styles.bigheader}>HOT PINK SALE - COMING SOON!</h1>
+      {/* <h1 className={styles.bigheader}>HOT PINK SALE - COMING SOON!</h1> */}
       <div>
         <img
           className={styles.banner2}
-          src="https://images-static.nykaa.com/uploads/618d58d6-cb47-4c1d-95dd-1abd3a5273b8.gif?tr=w-2400,cm-pad_resize"
+          src="https://images-static.nykaa.com/uploads/a47a4ec4-140c-4035-8b85-629db661a638.jpg?tr=w-1200,cm-pad_resize"
           alt="banner2"
         />
       </div>
-      <div className={styles.card}>
-        {cardImages1.map((cards, index) => (
-          <Stack
-            borderWidth="1px"
-            borderRadius="lg"
-            w={{ sm: "100%", md: "560px" }}
-            height={{ sm: "476px", md: "18.8rem" }}
-            direction={{ base: "column", md: "row" }}
-            marginTop={"20px"}
-          >
-            {" "}
-            <div className="each-slide" key={index}>
-              <div>
-                <img
-                  className={styles.desimcal}
-                  src={`${cards.url}`}
-                  alt="card"
-                />
-              </div>
-            </div>
-          </Stack>
-        ))}
-      </div>
-      <div className={styles.cardsquare}>
-        <div>
-          <img
-            src="https://images-static.nykaa.com/uploads/887f5bce-b082-44f7-a5b4-00c7120ee5ba.png?tr=w-800,cm-pad_resize"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            src="https://images-static.nykaa.com/uploads/72989133-c367-4986-b66e-5c49c00a0249.png?tr=w-800,cm-pad_resize"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            src="https://images-static.nykaa.com/uploads/fd031c0b-bd81-471c-86b2-6395ae0da879.png?tr=w-800,cm-pad_resize"
-            alt=""
-          />
-        </div>
-      </div>
-
       <h1 className={styles.bigheader}>TOP BRANDS</h1>
       {/* cards 1 */}
       <div className={styles.card}>
