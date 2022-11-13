@@ -43,6 +43,10 @@
     display: flex;
     gap: 0.5vw;
     cursor:  pointer;
+    background-color: #fc3581;
+    color: #f4f4f4;
+    padding:10px;
+    border-radius: 7px;
 }
 .card3{
     display: flex;

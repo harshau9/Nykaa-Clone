@@ -6,9 +6,16 @@ import { RiGift2Line } from 'react-icons/ri';
 import { BsHandbag } from 'react-icons/bs';
 import NavbarPopUpComponents from '../NavComponent/NavbarPopUpComponents';
 import {useNavigate} from 'react-router-dom'
-// import {MuiDrawer} from '../../Product page/MuiDrawer'
+
 
 const Navbar = () => {
+  const [currentForm, setCurrentForm] = useState('login');
+
+  const toggleForm = (formName) => {
+    setCurrentForm(formName);
+  }
+
+
   const navigate = useNavigate();
   const [howerState, setHowerState] = useState("");
   const [login, setLogin] = useState(false);
@@ -50,6 +57,7 @@ const Navbar = () => {
             <p onMouseEnter={() => hoverHandler("LUXE")}>Luxe</p>
             <p onMouseEnter={() => hoverHandler("NYKAA")}>Nykaa Fashion</p>
             <p onMouseEnter={() => hoverHandler("BEAUTY")}>Beauty Advice</p>
+
           </div>
           <div>
             <div className={style.inputContainer}>
@@ -61,10 +69,10 @@ const Navbar = () => {
               />
             </div>
             <div className={style.card2}>
-              <p>
+              {/* <p>
                 <FaRegUser fontSize="2.5vh" cursor="pointer" />
-              </p>
-              <p onClick={() => handleLogin()}>{!login ? "Login" : "Logout"}</p>
+              </p> */}
+              <button onClick={() => handleLogin()}>{!login ? "Sign in" : "Signout"}</button>
             </div>
             <div className={style.card3}>
               
